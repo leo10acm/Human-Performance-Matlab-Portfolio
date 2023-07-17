@@ -1,40 +1,41 @@
-# Human-Performance-Matlab-Portfolio
-Human performance data
-
-Sports Science Diagnostics Project
-This project aims to provide a comprehensive and data-driven approach to sports science diagnostics by leveraging the power of MATLAB and utilizing the latest scientific articles and research in the fields of exercise physiology, biomechanics, neuromechanics, and more.
-The goal is to create accurate and reliable models for analyzing various types of data related to sports performance.
+Biomechanics Data Analysis Project
+This project focuses on the analysis of biomechanics data collected from force plates. The objective is to extract valuable insights from force, acceleration, velocity, and position data during various movements such as landings, drop jumps, and jumps. The analysis involves calculating key variables, including forces during the landing phase, drop height, jump height, breaking and propulsion phases, Reactive Strength Index (RSI), modified Reactive Strength Index (mRSI), and more.
 
 Project Overview
-The project focuses on developing MATLAB scripts and functions that enable the analysis and modeling of sports science data. This includes data collected from various diagnostic tools such as motion capture systems, force plates, isokinetic dynamometers, 
-and heart rate variability devices, among others. By applying advanced statistical techniques and utilizing relevant scientific literature, the project aims to provide insights and recommendations for optimizing sports performance and injury prevention.
+Biomechanics data analysis plays a crucial role in understanding human movement and optimizing performance. By analyzing force plate data, we can gain insights into the forces exerted on the body, timing of different phases of movement, and quantify variables related to performance and injury risk.
+ 
+File Structure
+The project directory includes the following files:
 
-Key Features
-Utilization of MATLAB for data analysis, modeling, and visualization.
-Integration of the most up-to-date scientific articles and research findings in exercise physiology, biomechanics, and neuromechanics.
-Development of algorithms and models to process and interpret sports science data.
-Creation of visualizations to enhance the understanding of complex datasets.
-Application of statistical analysis techniques to identify patterns and trends in the collected data.
-Collaboration with experts in the field to ensure the accuracy and reliability of the developed models and algorithms.
-Getting Started
-To get started with this project, please follow these steps:
+I have included two files entitled DJ_N_*.c3d which contain the raw biomechanics data collected from force plates, including variables such as force, acceleration, velocity, and position.
+The data was calculated from two different force plates, i.e. one foot per force plate
+Calc_force2.m: This MATLAB script is used to analyze the force plate data and extract key variables of interest.
+README.md: This file provides an overview of the project and instructions for usage.
 
-Clone the repository to your local machine.
-Ensure that you have MATLAB installed.
-Install any necessary dependencies or toolboxes required for the project.
-Open the MATLAB scripts and functions to explore and modify them as needed.
-Import your own sports science data or use the provided sample datasets for testing and analysis.
-Refer to the documentation and comments within the code for guidance on how to use and customize the functionality.
-Contributions
-Contributions to this project are welcome and encouraged. If you have ideas for improvements or additional features, please feel free to submit a pull request. Additionally, if you come across any issues or bugs, please report them in the issue tracker.
+Usage
+To analyze the biomechanics data using the Calc_force2.m script:
+Dowload the btk toolkit as you need to add it to your path to be able to extract the data from the c3d files http://biomechanical-toolkit.github.io/
+Ensure that the data contains the relevant raw data from the force plates.
+Open MATLAB and navigate to the project directory.
+Load the Calc_force2.m script in MATLAB.
 
-License
-Feel free to use and modify the code as per the terms of the license.
+Execute the script to perform the data analysis.
+The script utilizes various algorithms and calculations to process the force plate data. It segments the data into different phases of movement, calculates variables of interest (e.g., landing forces, jump height), and generates visualizations to aid in data interpretation.
 
-Acknowledgments
-We would like to express our gratitude to the scientific community for their valuable research and contributions in the fields of exercise physiology, biomechanics, neuromechanics, and sports science. Without their work, this project would not be possible.
+Customization
+The  script can be customized to meet specific analysis requirements. Users can modify the script to include additional calculations, apply different algorithms, or generate personalized visualizations based on their research goals or specific data characteristics.
+
+Dependencies
+The project relies on the following dependencies:
+
+MATLAB 2021R
 
 Contact
+For any questions or inquiries regarding this project, please contact me.
+
+We hope this biomechanics data analysis project proves to be a valuable resource for researchers, coaches, and scientists interested in understanding human movement and optimizing performance using force plate data.
+
+Enjoy exploring the world of biomechanics data analysis!
 For any questions or inquiries regarding this project, please reach out to leutrim.mehmeti@tum.de
 We hope this project proves to be a valuable resource for sports scientists, researchers, and enthusiasts in the pursuit of enhancing sports performance through data-driven diagnostics.
 
