@@ -3,7 +3,7 @@ This project focuses on the analysis of biomechanics data collected from force p
 
 Project Overview
 Biomechanics data analysis plays a crucial role in understanding human movement and optimizing performance. By analyzing force plate data, we can gain insights into the forces exerted on the body, timing of different phases of movement, and quantify variables related to performance and injury risk.
-
+ 
 File Structure
 The project directory includes the following files:
 
