@@ -1,4 +1,3 @@
-Biomechanics Data Analysis Project
 This project focuses on the analysis of biomechanics data collected from force plates. The objective is to extract valuable insights from force, acceleration, velocity, and position data during various movements such as landings, drop jumps, and jumps. The analysis involves calculating key variables, including forces during the landing phase, drop height, jump height, breaking and propulsion phases, Reactive Strength Index (RSI), modified Reactive Strength Index (mRSI), and more.
 
 Project Overview
