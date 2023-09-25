@@ -6,8 +6,12 @@ This project aims to provide a comprehensive and data-driven approach to sports 
 The goal is to create accurate and reliable models for analyzing various types of data related to sports performance.
 
 Project Overview
-The project focuses on developing MATLAB scripts and functions that enable the analysis and modeling of sports science data. This includes data collected from various diagnostic tools such as motion capture systems, force plates, isokinetic dynamometers, 
-and heart rate variability devices, among others. By applying advanced statistical techniques and utilizing relevant scientific literature, the project aims to provide insights and recommendations for optimizing sports performance and injury prevention.
+The project focuses on developing MATLAB scripts and functions that enable the analysis and modeling of sports science data. As of September of 2023 there are two other branches beside the main branch. These two branches are 'CPET' and 'force-plate-data' and each branch puports a project based on the type of data collected. For instance the CPET branch/project data that has been exported from MetaSoft/MetaLyzer in the format of xlsx whereas the 'force-plate-data' project is based off of force plate data. 
+The plan is to provide more extensive projects pertaining to bioemchanics of movements and may include data from motion capture systems, force plates, isokinetic dynamometers, and heart rate variability devices, among others. 
+
+* Motion Capture Project (coming up in October 2023).
+
+The key idea for these projects is to share the data that is being collected by myself, a sports science practitioner, then find ways to 1) model the data with the aim of answering research questions, if you happen to be an advanced sports science practitioner, 2) get your practice working with large data sets where you get to work with real life data and practice some basic yet key tools of MATLAB (and any other programming tool) such as loops, iterating, indexing etc.  
 
 Key Features
 Utilization of MATLAB for data analysis, modeling, and visualization.
