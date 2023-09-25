@@ -20,7 +20,9 @@ Development of algorithms and models to process and interpret sports science dat
 Creation of visualizations to enhance the understanding of complex datasets.
 Application of statistical analysis techniques to identify patterns and trends in the collected data.
 Collaboration with experts in the field to ensure the accuracy and reliability of the developed models and algorithms.
+
 Getting Started
+
 To get started with this project, please follow these steps:
 
 Clone the repository to your local machine.
