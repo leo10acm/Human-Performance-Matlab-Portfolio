@@ -6,7 +6,7 @@ This project aims to provide a comprehensive and data-driven approach to sports 
 The goal is to create accurate and reliable models for analyzing various types of data related to sports performance.
 
 Project Overview
-The project focuses on developing MATLAB scripts and functions that enable the analysis and modeling of sports science data. As of September of 2023 there are two other branches beside the main branch. These two branches are 'CPET' and 'force-plate-data' and each branch puports a project based on the type of data collected. For instance the CPET branch/project data that has been exported from MetaSoft/MetaLyzer in the format of xlsx whereas the 'force-plate-data' project is based off of force plate data. 
+The project focuses on developing MATLAB scripts and functions that enable the analysis and modeling of sports science data. As of September of 2023 there are two other branches beside the main branch. These two branches are 'CPET' and 'force-plate-data' and each branch purports a project based on the type of data collected. For instance the CPET branch/project data that has been exported from MetaSoft/MetaLyzer in the format of xlsx whereas the 'force-plate-data' project is based off of force plate data. 
 The plan is to provide more extensive projects pertaining to bioemchanics of movements and may include data from motion capture systems, force plates, isokinetic dynamometers, and heart rate variability devices, among others. 
 
 * Motion Capture Project (coming up in October 2023).
